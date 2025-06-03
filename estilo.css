@@ -1,0 +1,79 @@
+﻿body {
+	color: black;
+}
+/* seletor universal para tirar todas as margens da página */
+* {
+	margin: 0; 
+}	
+
+/* comentário: criar a regra ou seletor  chamado principal */
+#principal {
+	width: 90%; /* largura de 90% na horizontal */
+	min-height: 100vh; /* a região vai esticar até o final da tela*/
+	background-color: #fce9bb; /* colocar a cor no fundo da região */
+	margin: 0 auto; /* centralização da região na horizontal */
+}
+/* configurar o menu */
+#menu {
+	list-style-type: none;
+}
+#menu li {
+	display: inline-block; /* colocar os itens do menu na horizontal */
+	width: 100px; /* cada item do menu terá 100 pixels */
+}
+/* alterar as cores e característica do link */
+a {
+	color: purple;	
+	text-decoration: none;
+}	
+/* alterar o menu quando passar o mouse sobre os itens do menu */
+a:hover {
+	text-decoration: overline;	
+}
+
+
+/* classe para formatar o pai flex que hospedará as colunas */
+.container-coluna {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* classe para formatar diversas colunas ao contrário do id, que só pode ser utilizado em um elemento */
+.coluna {
+	width: 25%;
+	min-width: 250px;
+	padding: 10px 30px;
+	box-sizing: border-box;
+}
+
+/* mantém todas as imagens das colunas com a largura da coluna em si */
+.coluna img {
+	width: 100%;
+	/* lembrando: "reloginho" sentido horário -> cima direita baixo esquerda */
+	margin: 0px 0px 60px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
